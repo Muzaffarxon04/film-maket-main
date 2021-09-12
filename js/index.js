@@ -102,7 +102,7 @@ let x = arrFilm.find((e) => filmID == e.id)
 
             modaltitle.textContent= x.title
             modaldiscribtion.textContent = x.overview;
-            closebtn.textContent = 'X'
+            closebtn.textContent = '✕'
 
             modalwin.classList.add('modal--active')
         })

@@ -170,14 +170,14 @@ time{
 }
 
     .close__btn{
-      width: 45px;
-      height: 45px;
-      
-        position: absolute;
-        left: 0;
+      width: 60px;
+      height: 60px;
+    position: absolute;
+        right: 0;
         top: 0;
+        font-weight: bold;
         cursor: pointer;
-        font-size: 25px;
+        font-size: 30px;
       
     }
     .close__btn:hover{
@@ -196,6 +196,7 @@ time{
 .movie__item-title {
     margin-bottom: 20px;
     line-height: 1;
+    width: 802px;
 }
 .movie__list{
     display: flex;
