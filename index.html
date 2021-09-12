@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>movie__search</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+  
+  <section class="movie">
+    <div class="container">
+      <h1 class="movie__title">CINEMA</h1>
+      <form class="form" id="form">
+      
+          <input class="movie__search" placeholder="search..." id="search_movie" type="search" name="seach_movie">
+      
+
+        
+        
+          <select class="movie__genre" name="select" id="select">
+            <option value="All">All</option>
+          </select>
+      
+        <select class="movie__az" name="select" id="select">
+          <option value="All">All</option>
+          <option value="new_old">New_Old</option>
+          <option value="old_new">Old_New</option>
+         <option value="a_z">A_z</option>
+          <option value="z_a">Z_a</option>
+        </select>
+      <button class="movie__btn" type="submit">Search</button>
+      </form>
+
+
+      <ul class="movie__list">
+       
+      </ul>
+    </div>
+  </section>
+  <script src="./js/films.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>
